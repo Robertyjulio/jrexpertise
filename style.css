@@ -1,0 +1,247 @@
+/* Estilo base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section.alt {
+  background: #eaf2f8;
+}
+
+/* Cabeçalho */
+.header {
+  background: #000;
+  color: white;
+  padding: 1rem 0;
+}
+
+.header nav a {
+  color: #d4af37;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo img {
+  height: 95px;
+  width: auto;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+}
+
+.logo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Hero */
+.hero {
+  background-color: #1a1a1a;
+  color: #d4af37;
+  padding: 5rem 2rem;
+  text-align: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #d4af37;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Botão */
+.btn {
+  display: inline-block;
+  background: #d4af37;
+  color: black;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Cards */
+.grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  flex: 1;
+  min-width: 280px;
+}
+
+/* Comparativo */
+.comparativo {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.coluna {
+  flex: 1;
+  padding: 2rem;
+  min-width: 300px;
+}
+
+.coluna h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #003366;
+}
+
+.coluna ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.coluna li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.tradicional {
+  background: #f9fafb;
+  border-right: 1px solid #ddd;
+}
+
+.jr {
+  background: #ffffff;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .comparativo {
+      flex-direction: column;
+  }
+  .coluna {
+      border-right: none !important;
+      border-bottom: 1px solid #eee;
+  }
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer-content p {
+  margin: 0.3rem 0;
+}
+
+/* Ícones sociais (cores originais) */
+.contato-acoes {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  font-size: 22px;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.instagram-original i {
+  color: #E4405F; /* Instagram */
+}
+
+.whatsapp-original i {
+  color: #25D366; /* WhatsApp */
+}
+.hero-texto {
+  max-width: 800px;
+  margin: 1.5rem auto;
+  text-align: center;
+  color: #d4af37;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.hero-texto .destaque {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+/* Estilo base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f5f7fa;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
